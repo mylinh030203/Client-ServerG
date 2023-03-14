@@ -22,7 +22,7 @@ public class Client_GUI extends JFrame{
 	public Panel p = new Panel();
 	Container cont;
 	JFrame client;
-	public int size = 500;
+	public int size =450;
 	public int n = 4;
 	public Client_GUI(int n, int x, int y, int color) {
 		this.n = n;
@@ -54,7 +54,7 @@ public class Client_GUI extends JFrame{
 		p1.setLayout(new GridLayout(1,2));
 		cont.add(p1, "North");
 		
-		client.setSize(size, size + 60);
+		client.setSize(size, size + 55);
 		client.setVisible(true);
 		client.setLocationRelativeTo(null);
 		client.setResizable(false);
